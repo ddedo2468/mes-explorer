@@ -1,0 +1,10 @@
+[project]
+name = "mes"
+version = "0.1.0"
+description = "A quick, easy to use clickable file browser in your terminal"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [{ name = "Abdullah Mesbah" }]
+
+[project.scripts]
+mes = "mes.cli:run"
